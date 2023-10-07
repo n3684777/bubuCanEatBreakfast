@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include ("partials/header") %>
+    <title>Login</title>
+  </head>
+  <body>
+    <%- include ("partials/nav") %>
+    <h1>welcome to <%= user.name %>'s page</h1>
+    <img src="<%= user.img %>" alt="" />
+    <p>email : <%= user.email %></p>
+    <p>創立時間 <%= user.date %></p>
+    <p>生日 : <%= user.birthday %></p>
+
+    <h1>留言板</h1>
+    <% if(post && post.length > 0 ) { %> <% for (let i = 0 ; i < post.length;i++
+    ) { %> 作者:<%= post[i].author %> <br />
+    標題:<%= post[i].title %> <br />內容:<%= post[i].content %> <br />時間:<%=
+    post[i].date %> <br />
+    <br /><% } %> <% } %>
+  </body>
+</html>

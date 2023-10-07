@@ -1,0 +1,91 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://lotus.paheal.net/_images/46b2afa512cd36b2834ef93c5cfdcc37/1116036%20-%20Aisha_Landar%20Elsword%20Elsword_Sieghart.png") no-repeat 0% 20%/cover;
+}
+
+p.dbShow {
+  color: pink;
+  font-weight: 1000;
+  font-size: 48;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 1000;
+  font-family: "微軟正黑體";
+  color: pink;
+}
+a:hover {
+  color: white;
+}
+a::-moz-selection {
+  color: green;
+}
+a::selection {
+  color: green;
+}
+a.login {
+  position: absolute;
+  right: 50px;
+  up: 0;
+}
+a.signup {
+  position: absolute;
+  right: 100px;
+  up: 0;
+}
+
+header {
+  font-weight: 1200;
+  font-family: "微軟正黑體";
+  font-size: 72;
+  color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+header h1 {
+  margin: 15px;
+}
+header ul {
+  color: purple;
+  font-size: 16px;
+  font-family: "微軟正黑體";
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background-color: rgba(210, 163, 74, 0.3);
+}
+header li {
+  margin: 10px;
+}
+
+form {
+  display: inline-block;
+}
+form label {
+  color: pink;
+  font-weight: 900;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input.back {
+  color: pink;
+}
+
+section.bubumeow {
+  color: orange;
+  font-weight: 1000;
+}
+section.bubumeow p {
+  font-family: "微軟正黑體";
+}/*# sourceMappingURL=style.css.map */

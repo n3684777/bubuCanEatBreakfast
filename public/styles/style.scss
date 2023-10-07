@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  //   background: rgba(0, 0, 0, 6)
+  //     url("https://lotus.paheal.net/_images/46b2afa512cd36b2834ef93c5cfdcc37/1116036%20-%20Aisha_Landar%20Elsword%20Elsword_Sieghart.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://lotus.paheal.net/_images/46b2afa512cd36b2834ef93c5cfdcc37/1116036%20-%20Aisha_Landar%20Elsword%20Elsword_Sieghart.png")
+      no-repeat 0% 20% / cover;
+}
+
+p.dbShow {
+  color: pink;
+  font-weight: 1000;
+  font-size: 48;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+  font-weight: 1000;
+  font-family: "微軟正黑體";
+  color: pink;
+  &::selection {
+    color: green;
+  }
+  &.login {
+    position: absolute;
+    right: 50px;
+    up: 0;
+  }
+
+  &.signup {
+    position: absolute;
+    right: 100px;
+    up: 0;
+  }
+}
+
+header {
+  & h1 {
+    margin: 15px;
+  }
+  font-weight: 1200;
+  font-family: "微軟正黑體";
+  font-size: 72;
+  color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  & ul {
+    color: purple;
+    font-size: 16px;
+    font-family: "微軟正黑體";
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: rgba(210, 163, 74, 0.3);
+  }
+  & li {
+    margin: 10px;
+  }
+}
+
+form {
+  display: inline-block;
+
+  & label {
+    color: pink;
+    font-weight: 900;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+// li {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+input.back {
+  color: pink;
+}
+
+section.bubumeow {
+  color: orange;
+  font-weight: 1000;
+  & p {
+    font-family: "微軟正黑體";
+  }
+}
